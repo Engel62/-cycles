@@ -34,5 +34,23 @@ public class Main {
         for (int g = 1; g < 600; g = g * 2) {
             System.out.println(g);
         }
+        /// Задание 8, домашнее задание 3, задание 1
+        System.out.println("Задание 8, домашнее задание 3, задание 1 ");
+        int salary = 29000;
+        int total = 0;
+        for (int i = 1; i < 13; i ++){
+            total = total + salary;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+        }
+        /// Задание 8, домашнее задание 3, задание  2
+        System.out.println("Задание 8, домашнее задание 3, задание 2 ");
+        int salarySecondTask = 29000;
+        int totalSecondTask = 0;
+        for (int i = 1; i < 13; i ++){
+            totalSecondTask = totalSecondTask + totalSecondTask / 100;
+            totalSecondTask = totalSecondTask + salarySecondTask;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + totalSecondTask + " рублей");
+        }
+
     }
 }
